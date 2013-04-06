@@ -1,13 +1,18 @@
 //
-//  ViewController.h
+//  Category.m
 //  Core Data SPoT
 //
 //  Created by Michael Bopp on 4/6/13.
 //  Copyright (c) 2013 Michael Bopp. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Category.h"
+#import "Photo.h"
 
-@interface ViewController : UIViewController
+
+@implementation Category
+
+@dynamic categoryName;
+@dynamic photos;
 
 @end
